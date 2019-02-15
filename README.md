@@ -1,6 +1,6 @@
 # Reason React Boilerplate
 
-Uses [parcel]() as the build tool. A bare minimum boilerplate that produces production-ready build artifacts.
+Uses [parcel](https://parceljs.org/) as the build tool. A bare minimum boilerplate that produces production-ready build artifacts.
 
 ### Usage
 
