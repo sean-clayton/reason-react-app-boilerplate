@@ -1,4 +1,7 @@
-ReactDOMRe.renderToElementWithId(<App />, "root");
+ReactDOMRe.renderToElementWithId(
+  <App title="Reason React App Boilerplate" />,
+  "root",
+);
 
 type parcelModule;
 type hot;

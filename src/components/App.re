@@ -3,7 +3,7 @@ type actions =
   | Subtract;
 
 [@react.component]
-let make = _ => {
+let make = (~title) => {
   open React;
 
   let (count, dispatch) =
@@ -18,7 +18,7 @@ let make = _ => {
     );
 
   <main>
-    <h1> "Reason React App Boilerplate"->string </h1>
+    <h1> title->string </h1>
     <h2> {j|Count is $count|j}->string </h2>
     <button onClick={_ => dispatch(Add)}> "+"->string </button>
     <button onClick={_ => dispatch(Subtract)}> "-"->string </button>
